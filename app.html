@@ -45,12 +45,14 @@
   </nav>
   <div class="py-2 text-center">
     <h3>Automation of Controls Testing</h3>
-    <h4>Active Directory (AD) Passwords Policy Testing</h4>
     <hr class="my-4">
   </div>
   <body>
     <div class="bd-content ps-lg-4">
-        <p> Ask your Windows Administrator to obtain the default Domain Active Directory Password Policy settings by using the following PowerShell command: <a onclick="document.getElementById('cnsl').value=mytext.join('\n');" class="bold" >Get-ADDefaultDomainPasswordPolicy</a>[<--Click for an example]</p>
+      <p>Risk: Attackers my attempt to access detailed Password Policy Settings used within an enterprise network or cloud environment.</p>
+      <p>Attack Technique/Tactic: Password Policy Discovery</p>
+      <p>Control: Active Directory (AD) Passwords Policy Testing</p>
+      <p> Ask your Windows Administrator to obtain the default Domain Active Directory Password Policy settings by using the following PowerShell command: <a onclick="document.getElementById('cnsl').value=mytext.join('\n');" class="bold" >Get-ADDefaultDomainPasswordPolicy</a>[<--Click for an example]</p>
         <div class="form-floating mb-3">
               <textarea class="form-control" placeholder="Enter Results" id="cnsl" style="height: 300px" required></textarea>
           <label for="cnsl">Copy & Paste the result obtained  and click [Run]</label>
@@ -73,7 +75,8 @@
 
 <footer class="my-3 pt-3 text-center text-small">
       <hr class="my-4">
-  <p class="mb-1">&copy; 2022 51.ar & Cyber Controls Automated</p>
+      <span><a href="/">Cyber Controls Automated </a> &#169; 2022 All Rights
+        Reserved</span>
 </footer>
 
 
