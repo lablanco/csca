@@ -49,6 +49,13 @@ nav .navbar .logo a{
   font-size: 35px;
   color: #f1f1f1;
 }
+nav .navbar img {
+  float: left;
+  display: inline;
+  width: 70px;
+  height: 60px;
+  margin: auto;
+}
 nav.sticky .navbar .logo a{
   color: #fff;
 }
