@@ -83,6 +83,8 @@ nav.sticky .menu a{
 nav.sticky .menu a:hover{
   color: #ff0000;
 }
+
+/* Media Icons */
 .navbar .media-icons a{
   color: #f1f1f1;
   font-size: 40px;
