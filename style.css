@@ -132,16 +132,13 @@ nav.sticky .menu-btn{
   background: url("Images/background_pic.jpg") no-repeat;
   background-size:cover;
   background-attachment: fixed;
-  /* background-position:center; */
   font-family: 'Roboto', sans-serif;
-    /* background: rgb(249,242,242);
-  background: linear-gradient(90deg, rgba(249,242,242,1) 58%, rgba(249,116,161,1) 79%, rgba(0,212,255,1) 100%); */
   
 }
 
 .home .home-content{
   width: 90%;
-  height: 100%;
+  height: 70%;
   margin: auto;
   display: flex;
   flex-direction: column;
